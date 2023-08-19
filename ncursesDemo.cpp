@@ -15,7 +15,7 @@ int ch = 0;
 initscr();
 noecho();
 
-keypad(stdscr,TRUE);
+keypad(stdscr, TRUE);
 
 printw("Press F1 to exit program");
 
