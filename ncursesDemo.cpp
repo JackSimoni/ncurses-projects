@@ -5,7 +5,7 @@ using namespace std;
 WINDOW *create_newwin(int height, int width, int starty, int startx);
 void destroy_win(WINDOW *localwin);
 
-int main(void)
+int main(argc, char *argv[])
 {
 
 WINDOW *menu;
