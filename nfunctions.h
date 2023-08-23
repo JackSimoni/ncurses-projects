@@ -18,7 +18,7 @@ void destroy_win(WINDOW *localwin)
 void wprint2DArray(WINDOW *localwin, int height, int width, int starty, int startx, char character)
 {
 
- for(int i = starty; i <= height; i++)
+  for(int i = starty; i <= height; i++)
          for(int j = startx; j <= width; j++)
                  mvwaddch(localwin, i, j, character);
 }
